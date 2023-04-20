@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "proxies",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/KoansToken.sol": "IProxyRegistry"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/KoansToken.sol": {
+			"keccak256": "0xed88e927d3bdcd01540191ec4d26d3f14ff1997acb5b6d379a63e48bfcc8680e",
+			"urls": [
+				"bzz-raw://806a4a3d957b1d54915d91f95fdadf6c85bb805e9aa2949768263cdef7160fae",
+				"dweb:/ipfs/QmXnYU9MjsMvdgS2LxfncD9jnSKh2b7o4SRWd5iwsFaen5"
+			]
+		}
+	},
+	"version": 1
+}
